@@ -37,7 +37,7 @@ describe('DOM', () => {
 		assert.deepEqual(srcData, expectedSrcData);
 	});
 
-	it("should be able to create header element via 'createHeaderEl' function", () => {
+	it("should be able to create header element via 'Header' class", () => {
 		const header = new Header();
 		const headerEl = header.render();
 		document.body.appendChild(headerEl);
