@@ -25,7 +25,7 @@ class Header extends Component {
 	render() {
 		const headerEl = this.createElement('header');
 
-		const headerTitleEl = this.createElement('h1', 'sr-only', 'NFT');
+		const headerTitleEl = this.createElement('h1', 'sr-only', 'NFT preview card component');
 
 		headerEl.appendChild(headerTitleEl);
 
