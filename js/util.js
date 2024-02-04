@@ -46,7 +46,7 @@ class Card extends Component {
 
 		const cardImageEl = this.createElement('img', null, null, [
 			this.createElementAttribute('src', './images/equilibrium.jpg'),
-			this.createElementAttribute('alt', ''),
+			this.createElementAttribute('alt', 'Equilibrium'),
 			this.createElementAttribute('width', 302),
 			this.createElementAttribute('height', 302),
 		]);
